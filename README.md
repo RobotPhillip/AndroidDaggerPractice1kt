@@ -8,6 +8,12 @@ This project accompanies my article *Demystifying the new Dagger Android module*
 
 Java version is here: https://github.com/jshvarts/DaggerAndroidSampleApp
 
+## Robots and Pencils Notes
+
+The only interesting change between the Kotlin and Java code is the setup of the dagger-injected instances.
+Kotlin prefixes the declarations with `lateinit`, to show that the instantiated class may not be set when the containing
+class is instantiated.
+
 ## License
 
     Copyright 2017 James Shvarts
